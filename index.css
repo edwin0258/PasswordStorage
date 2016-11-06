@@ -1,0 +1,36 @@
+body{
+  margin:0;
+}
+.container{
+  width:200px;
+  height:200px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0;
+  background:url("../leaves.jpg");
+  flex-flow:column wrap;
+}
+h1{
+  margin:0;
+  color:white;
+}
+form{
+  display:flex;
+  justify-content:center;
+  flex-flow:row wrap;
+}
+input{
+  width:90%;
+  font-size:20px;
+  line-height:30px;
+  border-radius:5px;
+  border:1px solid rgba(0,0,0,.2);
+}
+button{
+  background:#5bfa47;
+  height:30px;
+  width:100px;
+  margin-top:20px;
+  cursor:pointer;
+}

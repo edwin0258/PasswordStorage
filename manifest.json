@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Password Storage Extension",
+  "description": "For storing my passwords.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Password Storage"
+  },
+  "icons": {
+    "16": "lock16.png",
+    "48": "lock48.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
